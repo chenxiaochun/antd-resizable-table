@@ -58,9 +58,14 @@ module.exports = {
     'react/function-component-definition': [
       2,
       {
-        namedComponents: ['function-expression', 'function-declaration', 'arrow-function'],
+        namedComponents: [
+          'function-expression',
+          'function-declaration',
+          'arrow-function',
+        ],
         unnamedComponents: ['arrow-function'],
       },
+    ],
     'global-require': 0,
     'no-use-before-define': 'off',
     '@typescript-eslint/no-use-before-define': ['error'],
