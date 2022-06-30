@@ -125,6 +125,43 @@
     prettier "^2.7.1"
     typescript "^4.7.4"
 
+"@rollup/plugin-typescript@^8.3.2":
+  version "8.3.2"
+  resolved "http://registry.m.jd.com/@rollup/plugin-typescript/download/@rollup/plugin-typescript-8.3.2.tgz#e1b719e2ed3e752bbc092001656c48378f2d15f0"
+  integrity sha1-4bcZ4u0+dSu8CSABZWxIN48tFfA=
+  dependencies:
+    "@rollup/pluginutils" "^3.1.0"
+    resolve "^1.17.0"
+
+"@rollup/pluginutils@^3.1.0":
+  version "3.1.0"
+  resolved "http://registry.m.jd.com/@rollup/pluginutils/download/@rollup/pluginutils-3.1.0.tgz#706b4524ee6dc8b103b3c995533e5ad680c02b9b"
+  integrity sha1-cGtFJO5tyLEDs8mVUz5a1oDAK5s=
+  dependencies:
+    "@types/estree" "0.0.39"
+    estree-walker "^1.0.1"
+    picomatch "^2.2.2"
+
+"@types/estree@0.0.39":
+  version "0.0.39"
+  resolved "http://registry.m.jd.com/@types/estree/download/@types/estree-0.0.39.tgz#e177e699ee1b8c22d23174caaa7422644389509f"
+  integrity sha1-4Xfmme4bjCLSMXTKqnQiZEOJUJ8=
+
+"@types/fs-extra@^8.0.1":
+  version "8.1.2"
+  resolved "http://registry.m.jd.com/@types/fs-extra/download/@types/fs-extra-8.1.2.tgz#7125cc2e4bdd9bd2fc83005ffdb1d0ba00cca61f"
+  integrity sha1-cSXMLkvdm9L8gwBf/bHQugDMph8=
+  dependencies:
+    "@types/node" "*"
+
+"@types/glob@^7.1.1":
+  version "7.2.0"
+  resolved "http://registry.m.jd.com/@types/glob/download/@types/glob-7.2.0.tgz#bc1b5bf3aa92f25bd5dd39f35c57361bdce5b2eb"
+  integrity sha1-vBtb86qS8lvV3TnzXFc2G9zlsus=
+  dependencies:
+    "@types/minimatch" "*"
+    "@types/node" "*"
+
 "@types/json-schema@^7.0.9":
   version "7.0.11"
   resolved "http://registry.m.jd.com/@types/json-schema/download/@types/json-schema-7.0.11.tgz#d421b6c527a3037f7c84433fd2c4229e016863d3"
@@ -134,6 +171,16 @@
   version "0.0.29"
   resolved "http://registry.m.jd.com/@types/json5/download/@types/json5-0.0.29.tgz#ee28707ae94e11d2b827bcbe5270bcea7f3e71ee"
   integrity sha1-7ihweulOEdK4J7y+UnC86n8+ce4=
+
+"@types/minimatch@*":
+  version "3.0.5"
+  resolved "http://registry.m.jd.com/@types/minimatch/download/@types/minimatch-3.0.5.tgz#1001cc5e6a3704b83c236027e77f2f58ea010f40"
+  integrity sha1-EAHMXmo3BLg8I2An538vWOoBD0A=
+
+"@types/node@*":
+  version "18.0.0"
+  resolved "http://registry.m.jd.com/@types/node/download/@types/node-18.0.0.tgz#67c7b724e1bcdd7a8821ce0d5ee184d3b4dd525a"
+  integrity sha1-Z8e3JOG83XqIIc4NXuGE07TdUlo=
 
 "@types/prop-types@*":
   version "15.7.5"
@@ -147,7 +194,7 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@^18.0.14":
+"@types/react@*", "@types/react@>16.0.0":
   version "18.0.14"
   resolved "http://registry.m.jd.com/@types/react/download/@types/react-18.0.14.tgz#e016616ffff51dba01b04945610fe3671fdbe06d"
   integrity sha1-4BZhb//1HboBsElFYQ/jZx/b4G0=
@@ -448,11 +495,6 @@ classnames@2.x, classnames@^2.2.1, classnames@^2.2.3, classnames@^2.2.5, classna
   resolved "http://registry.m.jd.com/classnames/download/classnames-2.3.1.tgz#dfcfa3891e306ec1dad105d0e88f4417b8535e8e"
   integrity sha1-38+jiR4wbsHa0QXQ6I9EF7hTXo4=
 
-clsx@^1.1.1:
-  version "1.1.1"
-  resolved "http://registry.m.jd.com/clsx/download/clsx-1.1.1.tgz#98b3134f9abbdf23b2663491ace13c5c03a73188"
-  integrity sha1-mLMTT5q73yOyZjSRrOE8XAOnMYg=
-
 color-convert@^2.0.1:
   version "2.0.1"
   resolved "http://registry.m.jd.com/color-convert/download/color-convert-2.0.1.tgz#72d3a68d598c9bdb3af2ad1e84f21d896abd4de3"
@@ -464,6 +506,11 @@ color-name@~1.1.4:
   version "1.1.4"
   resolved "http://registry.m.jd.com/color-name/download/color-name-1.1.4.tgz#c2a09a87acbde69543de6f63fa3995c826c536a2"
   integrity sha1-wqCah6y95pVD3m9j+jmVyCbFNqI=
+
+colorette@^1.1.0:
+  version "1.4.0"
+  resolved "http://registry.m.jd.com/colorette/download/colorette-1.4.0.tgz#5190fbb87276259a86ad700bff2c6d6faa3fca40"
+  integrity sha1-UZD7uHJ2JZqGrXAL/yxtb6o/ykA=
 
 compute-scroll-into-view@^1.0.17:
   version "1.0.17"
@@ -879,6 +926,11 @@ estraverse@^5.1.0, estraverse@^5.2.0, estraverse@^5.3.0:
   resolved "http://registry.m.jd.com/estraverse/download/estraverse-5.3.0.tgz#2eea5290702f26ab8fe5370370ff86c965d21123"
   integrity sha1-LupSkHAvJquP5TcDcP+GyWXSESM=
 
+estree-walker@^1.0.1:
+  version "1.0.1"
+  resolved "http://registry.m.jd.com/estree-walker/download/estree-walker-1.0.1.tgz#31bc5d612c96b704106b477e6dd5d8aa138cb700"
+  integrity sha1-MbxdYSyWtwQQa0d+bdXYqhOMtwA=
+
 esutils@^2.0.2:
   version "2.0.3"
   resolved "http://registry.m.jd.com/esutils/download/esutils-2.0.3.tgz#74d2eb4de0b8da1293711910d50775b9b710ef64"
@@ -894,7 +946,7 @@ fast-diff@^1.1.2:
   resolved "http://registry.m.jd.com/fast-diff/download/fast-diff-1.2.0.tgz#73ee11982d86caaf7959828d519cfe927fac5f03"
   integrity sha1-c+4RmC2Gyq95WYKNUZz+kn+sXwM=
 
-fast-glob@^3.2.9:
+fast-glob@^3.0.3, fast-glob@^3.2.9:
   version "3.2.11"
   resolved "http://registry.m.jd.com/fast-glob/download/fast-glob-3.2.11.tgz#a1172ad95ceb8a16e20caa5c5e56480e5129c1d9"
   integrity sha1-oRcq2VzrihbiDKpcXlZIDlEpwdk=
@@ -961,10 +1013,24 @@ flatted@^3.1.0:
   resolved "http://registry.m.jd.com/flatted/download/flatted-3.2.5.tgz#76c8584f4fc843db64702a6bd04ab7a8bd666da3"
   integrity sha1-dshYT0/IQ9tkcCpr0Eq3qL1mbaM=
 
+fs-extra@^8.1.0:
+  version "8.1.0"
+  resolved "http://registry.m.jd.com/fs-extra/download/fs-extra-8.1.0.tgz#49d43c45a88cd9677668cb7be1b46efdb8d2e1c0"
+  integrity sha1-SdQ8RaiM2Wd2aMt74bRu/bjS4cA=
+  dependencies:
+    graceful-fs "^4.2.0"
+    jsonfile "^4.0.0"
+    universalify "^0.1.0"
+
 fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "http://registry.m.jd.com/fs.realpath/download/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
   integrity sha1-FQStJSMVjKpA20onh8sBQRmU6k8=
+
+fsevents@~2.3.2:
+  version "2.3.2"
+  resolved "http://registry.m.jd.com/fsevents/download/fsevents-2.3.2.tgz#8a526f78b8fdf4623b709e0b975c52c24c02fd1a"
+  integrity sha1-ilJveLj99GI7cJ4Ll1xSwkwC/Ro=
 
 function-bind@^1.1.1:
   version "1.1.1"
@@ -1041,6 +1107,20 @@ globals@^13.15.0:
   dependencies:
     type-fest "^0.20.2"
 
+globby@10.0.1:
+  version "10.0.1"
+  resolved "http://registry.m.jd.com/globby/download/globby-10.0.1.tgz#4782c34cb75dd683351335c5829cc3420e606b22"
+  integrity sha1-R4LDTLdd1oM1EzXFgpzDQg5gayI=
+  dependencies:
+    "@types/glob" "^7.1.1"
+    array-union "^2.1.0"
+    dir-glob "^3.0.1"
+    fast-glob "^3.0.3"
+    glob "^7.1.3"
+    ignore "^5.1.1"
+    merge2 "^1.2.3"
+    slash "^3.0.0"
+
 globby@^11.1.0:
   version "11.1.0"
   resolved "http://registry.m.jd.com/globby/download/globby-11.1.0.tgz#bd4be98bb042f83d796f7e3811991fbe82a0d34b"
@@ -1053,7 +1133,7 @@ globby@^11.1.0:
     merge2 "^1.4.1"
     slash "^3.0.0"
 
-graceful-fs@^4.1.2:
+graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0:
   version "4.2.10"
   resolved "http://registry.m.jd.com/graceful-fs/download/graceful-fs-4.2.10.tgz#147d3a006da4ca3ce14728c7aefc287c367d7a6c"
   integrity sha1-FH06AG2kyjzhRyjHrvwofDZ9emw=
@@ -1094,7 +1174,7 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
-ignore@^5.2.0:
+ignore@^5.1.1, ignore@^5.2.0:
   version "5.2.0"
   resolved "http://registry.m.jd.com/ignore/download/ignore-5.2.0.tgz#6d3bac8fa7fe0d45d9f9be7bac2fc279577e345a"
   integrity sha1-bTusj6f+DUXZ+b57rC/CeVd+NFo=
@@ -1202,6 +1282,11 @@ is-number@^7.0.0:
   resolved "http://registry.m.jd.com/is-number/download/is-number-7.0.0.tgz#7535345b896734d5f80c4d06c50955527a14f12b"
   integrity sha1-dTU0W4lnNNX4DE0GxQlVUnoU8Ss=
 
+is-plain-object@^3.0.0:
+  version "3.0.1"
+  resolved "http://registry.m.jd.com/is-plain-object/download/is-plain-object-3.0.1.tgz#662d92d24c0aa4302407b0d45d21f2251c85f85b"
+  integrity sha1-Zi2S0kwKpDAkB7DUXSHyJRyF+Fs=
+
 is-regex@^1.1.4:
   version "1.1.4"
   resolved "http://registry.m.jd.com/is-regex/download/is-regex-1.1.4.tgz#eef5663cd59fa4c0ae339505323df6854bb15958"
@@ -1279,6 +1364,13 @@ json5@^1.0.1:
   dependencies:
     minimist "^1.2.0"
 
+jsonfile@^4.0.0:
+  version "4.0.0"
+  resolved "http://registry.m.jd.com/jsonfile/download/jsonfile-4.0.0.tgz#8771aae0799b64076b76640fca058f9c10e33ecb"
+  integrity sha1-h3Gq4HmbZAdrdmQPygWPnBDjPss=
+  optionalDependencies:
+    graceful-fs "^4.1.6"
+
 "jsx-ast-utils@^2.4.1 || ^3.0.0", jsx-ast-utils@^3.3.1:
   version "3.3.1"
   resolved "http://registry.m.jd.com/jsx-ast-utils/download/jsx-ast-utils-3.3.1.tgz#a3e0f1cb7e230954eab4dcbce9f6288a78f8ba44"
@@ -1325,7 +1417,7 @@ lodash@^4.17.21:
   resolved "http://registry.m.jd.com/lodash/download/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha1-Z5WRxWTDv/quhFTPCz3zcMPWkRw=
 
-loose-envify@^1.1.0, loose-envify@^1.4.0:
+loose-envify@^1.4.0:
   version "1.4.0"
   resolved "http://registry.m.jd.com/loose-envify/download/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
   integrity sha1-ce5R+nvkyuwaY4OffmgtgTLTDK8=
@@ -1349,7 +1441,7 @@ memory-fs@^0.2.0:
   resolved "http://registry.m.jd.com/memory-fs/download/memory-fs-0.2.0.tgz#f2bb25368bc121e391c2520de92969caee0a0290"
   integrity sha1-8rslNovBIeORwlIN6Slpyu4KApA=
 
-merge2@^1.3.0, merge2@^1.4.1:
+merge2@^1.2.3, merge2@^1.3.0, merge2@^1.4.1:
   version "1.4.1"
   resolved "http://registry.m.jd.com/merge2/download/merge2-1.4.1.tgz#4368892f885e907455a6fd7dc55c0c9d404990ae"
   integrity sha1-Q2iJL4hekHRVpv19xVwMnUBJkK4=
@@ -1529,7 +1621,7 @@ path-type@^4.0.0:
   resolved "http://registry.m.jd.com/path-type/download/path-type-4.0.0.tgz#84ed01c0a7ba380afe09d90a8c180dcd9d03043b"
   integrity sha1-hO0BwKe6OAr+CdkKjBgNzZ0DBDs=
 
-picomatch@^2.3.1:
+picomatch@^2.2.2, picomatch@^2.3.1:
   version "2.3.1"
   resolved "http://registry.m.jd.com/picomatch/download/picomatch-2.3.1.tgz#3ba3833733646d9d3e4995946c1365a67fb07a42"
   integrity sha1-O6ODNzNkbZ0+SZWUbBNlpn+wekI=
@@ -1551,7 +1643,7 @@ prettier@^2.7.1:
   resolved "http://registry.m.jd.com/prettier/download/prettier-2.7.1.tgz#e235806850d057f97bb08368a4f7d899f7760c64"
   integrity sha1-4jWAaFDQV/l7sINopPfYmfd2DGQ=
 
-prop-types@15.x, prop-types@^15.8.1:
+prop-types@^15.8.1:
   version "15.8.1"
   resolved "http://registry.m.jd.com/prop-types/download/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
   integrity sha1-Z9h78aaU9IQ1zzMsJK8QIUoxQLU=
@@ -1583,9 +1675,9 @@ rc-align@^4.0.0:
     resize-observer-polyfill "^1.5.1"
 
 rc-cascader@~3.6.0:
-  version "3.6.0"
-  resolved "http://registry.m.jd.com/rc-cascader/download/rc-cascader-3.6.0.tgz#7db0d373edf4c276bba4b68b7de57fad1486c908"
-  integrity sha1-fbDTc+30wna7pLaLfeV/rRSGyQg=
+  version "3.6.1"
+  resolved "http://registry.m.jd.com/rc-cascader/download/rc-cascader-3.6.1.tgz#2e94fb3ed770ffd71d87ebcf17a9b44a6442e76f"
+  integrity sha1-LpT7Ptdw/9cdh+vPF6m0SmRC528=
   dependencies:
     "@babel/runtime" "^7.12.5"
     array-tree-filter "^2.1.0"
@@ -1836,9 +1928,9 @@ rc-switch@~3.2.0:
     rc-util "^5.0.1"
 
 rc-table@~7.24.0:
-  version "7.24.2"
-  resolved "http://registry.m.jd.com/rc-table/download/rc-table-7.24.2.tgz#fbccf5ef4b84cdb38c8a0b416365de157483bf51"
-  integrity sha1-+8z170uEzbOMigtBY2XeFXSDv1E=
+  version "7.24.3"
+  resolved "http://registry.m.jd.com/rc-table/download/rc-table-7.24.3.tgz#5a3f05037a6c36e8dd9345b4d7c0308f4952ee8c"
+  integrity sha1-Wj8FA3psNujdk0W018Awj0lS7ow=
   dependencies:
     "@babel/runtime" "^7.10.1"
     classnames "^2.2.5"
@@ -1937,33 +2029,10 @@ rc-virtual-list@^3.2.0, rc-virtual-list@^3.4.8:
     rc-resize-observer "^1.0.0"
     rc-util "^5.15.0"
 
-react-draggable@^4.0.3:
-  version "4.4.5"
-  resolved "http://registry.m.jd.com/react-draggable/download/react-draggable-4.4.5.tgz#9e37fe7ce1a4cf843030f521a0a4cc41886d7e7c"
-  integrity sha1-njf+fOGkz4QwMPUhoKTMQYhtfnw=
-  dependencies:
-    clsx "^1.1.1"
-    prop-types "^15.8.1"
-
 react-is@^16.12.0, react-is@^16.13.1:
   version "16.13.1"
   resolved "http://registry.m.jd.com/react-is/download/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha1-eJcppNw23imZ3BVt1sHZwYzqVqQ=
-
-react-resizable@^3.0.4:
-  version "3.0.4"
-  resolved "http://registry.m.jd.com/react-resizable/download/react-resizable-3.0.4.tgz#aa20108eff28c52c6fddaa49abfbef8abf5e581b"
-  integrity sha1-qiAQjv8oxSxv3apJq/vvir9eWBs=
-  dependencies:
-    prop-types "15.x"
-    react-draggable "^4.0.3"
-
-react@^18.2.0:
-  version "18.2.0"
-  resolved "http://registry.m.jd.com/react/download/react-18.2.0.tgz#555bd98592883255fa00de14f1151a917b5d77d5"
-  integrity sha1-VVvZhZKIMlX6AN4U8RUakXtdd9U=
-  dependencies:
-    loose-envify "^1.1.0"
 
 regenerator-runtime@^0.13.4:
   version "0.13.9"
@@ -1994,7 +2063,7 @@ resolve-from@^4.0.0:
   resolved "http://registry.m.jd.com/resolve-from/download/resolve-from-4.0.0.tgz#4abcd852ad32dd7baabfe9b40e00a36db5f392e6"
   integrity sha1-SrzYUq0y3Xuqv+m0DgCjbbXzkuY=
 
-resolve@^1.20.0, resolve@^1.22.0:
+resolve@^1.17.0, resolve@^1.20.0, resolve@^1.22.0:
   version "1.22.1"
   resolved "http://registry.m.jd.com/resolve/download/resolve-1.22.1.tgz#27cb2ebb53f91abb49470a928bba7558066ac177"
   integrity sha1-J8suu1P5GrtJRwqSi7p1WAZqwXc=
@@ -2023,6 +2092,24 @@ rimraf@^3.0.2:
   integrity sha1-8aVAK6YiCtUswSgrrBrjqkn9Bho=
   dependencies:
     glob "^7.1.3"
+
+rollup-plugin-copy@^3.4.0:
+  version "3.4.0"
+  resolved "http://registry.m.jd.com/rollup-plugin-copy/download/rollup-plugin-copy-3.4.0.tgz#f1228a3ffb66ffad8606e2f3fb7ff23141ed3286"
+  integrity sha1-8SKKP/tm/62GBuLz+3/yMUHtMoY=
+  dependencies:
+    "@types/fs-extra" "^8.0.1"
+    colorette "^1.1.0"
+    fs-extra "^8.1.0"
+    globby "10.0.1"
+    is-plain-object "^3.0.0"
+
+rollup@^2.75.7:
+  version "2.75.7"
+  resolved "http://registry.m.jd.com/rollup/download/rollup-2.75.7.tgz#221ff11887ae271e37dcc649ba32ce1590aaa0b9"
+  integrity sha1-Ih/xGIeuJx433MZJujLOFZCqoLk=
+  optionalDependencies:
+    fsevents "~2.3.2"
 
 run-parallel@^1.1.9:
   version "1.2.0"
@@ -2222,6 +2309,11 @@ unbox-primitive@^1.0.2:
     has-bigints "^1.0.2"
     has-symbols "^1.0.3"
     which-boxed-primitive "^1.0.2"
+
+universalify@^0.1.0:
+  version "0.1.2"
+  resolved "http://registry.m.jd.com/universalify/download/universalify-0.1.2.tgz#b646f69be3942dabcecc9d6639c80dc105efaa66"
+  integrity sha1-tkb2m+OULavOzJ1mOcgNwQXvqmY=
 
 uri-js@^4.2.2:
   version "4.4.1"
