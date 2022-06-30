@@ -1,6 +1,6 @@
 {
   "name": "antd-resizable-table",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "./dist/ResizableTable.js",
   "scripts": {
@@ -8,8 +8,13 @@
     "postbuild": "tsc  --emitDeclarationOnly --declaration --project tsconfig.json --outDir dist"
   },
   "files": [
-    "dist"
+    "dist",
+    "README.md"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chenxiaochun/antd-resizable-table.git"
+  },
   "author": "chenxiaochun",
   "license": "ISC",
   "peerDependencies": {
