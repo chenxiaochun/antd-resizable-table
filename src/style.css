@@ -1,9 +1,9 @@
-.ant4-table-cell .react-resizable {
+.ant-table-cell .react-resizable {
   position: relative;
   background-clip: padding-box;
 }
 
-.ant4-table-cell .react-resizable-handle {
+.ant-table-cell .react-resizable-handle {
   position: absolute;
   width: 10px;
   height: 100%;
